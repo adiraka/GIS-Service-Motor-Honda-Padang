@@ -98,7 +98,7 @@
                     } elseif ($page == 'ubah-lokasi') {
                     	include "lokasi/ubah_lokasi.php";
                     } elseif ($page == 'hapus-lokasi') {
-                    	include "lokasi/hapus_bengkel.php";
+                    	include "lokasi/hapus_lokasi.php";
                     }
 
 				}

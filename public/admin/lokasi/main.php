@@ -67,7 +67,7 @@
 	<div class="card">
 		<p class="card-header text-center"><strong>TABEL DATA LOKASI BENGKEL</strong></p>
 		<div class="card-body">
-			<table class="table table-bordered display responsive nowrap" id="tb-kelurahan">
+			<table class="table table-bordered display responsive nowrap" id="tb-lokasi">
 				<thead>
 					<tr>
 						<th>ID</th>
@@ -104,6 +104,7 @@
 									<td>".$dat3['lat']."</td>
 									<td>".$dat3['lng']."</td>
 									<td>
+										<a href='?page=ubah-lokasi&id=".$dat3['id']."' class='btn btn-success btn-sm'>UBAH</a>
 										<a href='?page=hapus-lokasi&id=".$dat3['id']."' class='btn btn-danger btn-sm'>HAPUS</a>
 									</td>
 								</tr>

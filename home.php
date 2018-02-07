@@ -30,7 +30,7 @@
 								<a class="nav-link" href="home.php"><strong>HOME</strong></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#"><strong>PROFIL</strong></a>
+								<a class="nav-link" href="visi-misi.php"><strong>VISI MISI</strong></a>
 							</li>
 						</ul>
 						<div class="my-2 my-lg-0">
