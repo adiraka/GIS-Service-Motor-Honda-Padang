@@ -22,6 +22,14 @@
 					<label for="telepon_bengkel">Telepon Bengkel :</label>
 					<input type="text" name="telepon_bengkel" id="telepon_bengkel" class="form-control" value="<?php echo $dat['no_telp'] ?>">
 				</div>
+				<div class="form-group">
+					<label for="keterangan">Keterangan :</label>
+					<input type="text" name="keterangan" id="keterangan" class="form-control" value="<?php echo $dat['keterangan'] ?>">
+				</div>
+				<!-- <div class="form-group">
+					<label for="foto">Upload Foto :</label>
+					<input type="file" name="foto" id="foto" class="form-control">
+				</div> -->
 				<hr>
 				<div class="form-group">
 					<button type="submit" class="btn btn-block btn-secondary">UBAH BENGKEL</button>

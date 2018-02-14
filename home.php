@@ -89,8 +89,7 @@
     					icon: 'assets/img/marker.png'
     				});
     				marker.setMap(map);
-
-    				var contentStr = '<div class="text-center"><h5>'+data.nama_bengkel+'</h5><p>Alamat : '+data.alamat+'</p><p>Telepon : '+data.telepon+'</p></div>';
+    				var contentStr = '<div class="text-center"><h5>'+data.nama_bengkel+'</h5><p>'+data.alamat+' Telp.'+data.telepon+'</p></div><div class="text-center"><img src="assets/foto/'+data.foto+'" height="200px" width="200px"><br><br><p>'+data.keterangan+'</p></div>';
 
     				var infowindow = new google.maps.InfoWindow({
     					content: contentStr

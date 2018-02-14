@@ -3,13 +3,14 @@
 	session_start();
 
 	$id = $_POST["id"];
-	$nama = $_POST['nama_bengkel'];
+	$namabengkel = $_POST['nama_bengkel'];
 	$alamat = $_POST["alamat_bengkel"];
 	$telepon = $_POST["telepon_bengkel"];
+	$keterangan = $_POST["keterangan"];
 
 	include "../../../incl/connection.php";
 
-	$sql = "UPDATE tb_bengkel SET nm_bengkel = '$nama', alamat = '$alamat', no_telp = '$telepon' WHERE id = '$id'";
+	$sql = "UPDATE tb_bengkel SET nm_bengkel = '$namabengkel', alamat = '$alamat', no_telp = '$telepon', keterangan = '$keterangan' WHERE id = '$id'";
 	$proses = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
 	if ($proses) {
